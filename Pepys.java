@@ -2,7 +2,7 @@ public class Pepys {
     
     public double probAtLeastOneSix(int n) {
 
-        int successes = 0;
+        double successes = 0;
         for(int i=0;i<n;i++)
         {
             for(int j=1;j<=6;j++)
@@ -16,12 +16,12 @@ public class Pepys {
             }
         }
         
-        return (double) successes/n;
+        return successes/n;
     }
 
     public double probAtLeastTwoSixes(int n) {
 
-        int successes = 0;
+        double successes = 0;
         for(int i=0;i<n;i++)
         {
             int num6 = 0;
@@ -39,7 +39,7 @@ public class Pepys {
             }
         }
         
-        return (double) successes/n;
+        return successes/n;
 
     }
 
