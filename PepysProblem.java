@@ -11,8 +11,8 @@ public class PepysProblem {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        System.out.println("Welcome to the Pepys Problem.")
-        System.out.print("Enter the number of simulations to run: ")
+        System.out.println("Welcome to the Pepys Problem.");
+        System.out.print("Enter the number of simulations to run: ");
         int simulations = s.nextInt();
 
         Pepys p = new Pepys();
