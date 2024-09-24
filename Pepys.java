@@ -7,7 +7,7 @@ public class Pepys {
         {
             for(int j=1;j<=6;j++)
             {
-                int rand = (int) Math.random() * 6 + 1;
+                int rand = (int)(Math.random() * 6) + 1;
                 if(rand == 6)
                 {
                     successes++;
@@ -27,7 +27,7 @@ public class Pepys {
             int num6 = 0;
             for(int j=1;j<=12;j++)
             {
-                int rand = (int) Math.random() * 6 + 1;
+                int rand = (int)(Math.random() * 6) + 1;
                 if(rand == 6)
                     num6++;
 
