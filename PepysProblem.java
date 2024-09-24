@@ -31,8 +31,8 @@ public class PepysProblem {
         int simulations = s.nextInt();
 
         Pepys p = new Pepys();
-        System.out.println("\nThe empirical probability of rolling at least one six if six dice are rolled is: " + p.
-        
+        System.out.println("\nThe empirical probability of rolling at least one six if six dice are rolled is: " + p.probAtLeastOneSix());
+        System.out.println("The empirical probability of rolling at least two six if 12 dice are rolled is: " + p.probAtLeastTwoSixes());
             
     }
 }
